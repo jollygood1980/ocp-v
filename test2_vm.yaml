@@ -1,11 +1,11 @@
 apiVersion: kubevirt.io/v1
 kind: VirtualMachine
 metadata:
-  name: test1
+  name: test2
   annotations:
     description: VM example2
   labels:
-    app: test1
+    app: test2
     os.template.kubevirt.io/fedora: 'true'
   namespace: git-test
 spec:
