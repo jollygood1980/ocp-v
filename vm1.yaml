@@ -50,7 +50,7 @@ spec:
           type: q35
         memory:
           guest: 2Gi
-      hostname: example
+      hostname: testvm1
       networks:
         - name: default
           pod: {}
