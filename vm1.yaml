@@ -57,8 +57,8 @@ spec:
       terminationGracePeriodSeconds: 180
       volumes:
         - name: rootdisk
-          containerDisk:
-            image: quay.io/containerdisks/fedora
+          dataVolume:
+             name: fedora01
         - cloudInitNoCloud:
             userData: |-
               #cloud-config
