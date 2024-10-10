@@ -58,7 +58,7 @@ spec:
       volumes:
         - name: rootdisk
           dataVolume:
-             name: fedora01
+             name: testvm4
         - cloudInitNoCloud:
             userData: |-
               #cloud-config
