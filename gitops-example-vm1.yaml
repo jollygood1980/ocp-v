@@ -36,7 +36,7 @@ items:
               storage: 30Gi
         source:
           pvc:
-            name: centos8
+            name: centos-stream9-bae111cdd5a1
             namespace: openshift-virtualization-os-images
     running: true
     template:
