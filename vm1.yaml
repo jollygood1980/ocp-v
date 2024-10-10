@@ -49,7 +49,7 @@ spec:
         machine:
           type: q35
         memory:
-          guest: 2Gi
+          guest: 5Gi
       hostname: testvm1
       networks:
         - name: default
